@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CTA Wait Est.</string>
+    <string name="app_name_long">CTA Wait Estimate</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">What is the bus-stop number?</string>
+    <string name="bus_stop_hint"> 55555 </string>
+    <string name="btn_get_wait_time">Text me the arrival time</string>
+    <string name="invalid_bus_num_alert">Please enter a valid bus-stop number.</string>
+    <string name="ok_caps">OK</string>
+    <string name="msg_sent_alert">The CTA will text you the arrival time.</string>
+</resources>

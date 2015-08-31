@@ -1,33 +1,24 @@
+/* Created by Blake Gideon. <blake at chicagoan.io>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 package io.chicagoan.ctawaittime;
 
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.Rect;
-import android.graphics.drawable.DrawableContainer;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.RectShape;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.net.Uri;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.telephony.CellInfo;
 import android.telephony.PhoneStateListener;
 import android.telephony.ServiceState;
 import android.telephony.SmsManager;
 import android.telephony.TelephonyManager;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import java.util.List;
 
 public class BusWaitTime extends AppCompatActivity {
 
@@ -132,11 +123,3 @@ public class BusWaitTime extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
-
-/*
-* Background based on an image by Chris Smith
-* Liscensed under Creative Commons: https://creativecommons.org/licenses/by-nc-sa/2.0/
-* Link: https://www.flickr.com/photos/cjsmithphotography/6768289679/
-*
-*
-* */
